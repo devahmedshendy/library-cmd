@@ -1,0 +1,15 @@
+### Project-Related Build ###
+*.jar
+out/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VCode ###
+.vscode/
+
+### Misc ###
+.DS_Store
