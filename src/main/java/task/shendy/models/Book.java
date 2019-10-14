@@ -11,9 +11,9 @@ public class Book {
 
     // MARK: Constructors
 
-    public Book() {
-        this(0, "", "", "");
-    }
+//    public Book() {
+//        this(0, "", "", "");
+//    }
 
     public Book(String title, String author, String description) {
         this.title = title;
@@ -66,9 +66,9 @@ public class Book {
     public String toString() {
         return String.format(
                 "\n    ID: %s"
-                        + "\n    Title: %s"
-                        + "\n    Author: %s"
-                        + "\n    Description: %s"
+                + "\n    Title: %s"
+                + "\n    Author: %s"
+                + "\n    Description: %s"
                 , this.id, this.title, this.author, this.description);
     }
 

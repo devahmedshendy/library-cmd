@@ -3,7 +3,6 @@ package task.shendy;
 // MARK: Import Statements
 
 import task.shendy.models.Book;
-import task.shendy.services.RecordBufferManager;
 
 import java.util.Collection;
 
@@ -18,6 +17,12 @@ public class Utils {
         System.out.print(obj);
     }
 
+    public static void print(Object... objects) {
+        for (Object obj : objects) {
+        System.out.print(obj);
+        }
+    }
+
     public static void println() {
         System.out.println();
     }
@@ -30,48 +35,48 @@ public class Utils {
         System.out.format(string, args);
     }
 
-    public static void printSelectValidMenuError() {
-        System.out.println("\nerror: please select a valid menu!");
+    public static void printInvalidMenuId() {
+        System.out.println("\nERROR: invalid menu id!");
     }
 
     public static void printSelectValidBookIdError() {
-        System.out.println("\nerror: please select a valid book id!");
+        System.out.println("\nERROR: please select a valid book id!");
     }
 
-    public static void printInvalidFieldValue(String fieldName) {
-        switch (fieldName) {
-            case "title":
-                printInvalidTitleValue();
-                break;
+//    public static void printInvalidFieldValue(String fieldName) {
+//        switch (fieldName) {
+//            case "title":
+//                printInvalidTitleValue();
+//                break;
+//
+//            case "author":
+//                printInvalidAuthorValue();
+//                break;
+//
+//            default: // Description
+//                printInvalidDescriptionValue();
+//                break;
+//        }
+//    }
 
-            case "author":
-                printInvalidAuthorValue();
-                break;
-
-            default: // Description
-                printInvalidDescriptionValue();
-                break;
-        }
-    }
-
-    public static void printInvalidTitleValue() {
-        Utils.printf("\nerror: Title field cannot be empty or more than %d long.\n", RecordBufferManager.TITLE_SIZE);
-    }
-
-    public static void printInvalidAuthorValue() {
-        Utils.printf("\nerror: Author field cannot be empty or more than %d long.\n", RecordBufferManager.AUTHOR_SIZE);
-    }
-
-    public static void printInvalidDescriptionValue() {
-        Utils.printf("\nerror: Description field cannot be more than %d long.\n", RecordBufferManager.AUTHOR_SIZE);
-    }
+//    public static void printInvalidTitleValue() {
+//        Utils.printf("\nerror: Title field cannot be empty or more than %d long.\n", RecordBufferManager.TITLE_SIZE);
+//    }
+//
+//    public static void printInvalidAuthorValue() {
+//        Utils.printf("\nerror: Author field cannot be empty or more than %d long.\n", RecordBufferManager.AUTHOR_SIZE);
+//    }
+//
+//    public static void printInvalidDescriptionValue() {
+//        Utils.printf("\nerror: Description field cannot be more than %d long.\n", RecordBufferManager.AUTHOR_SIZE);
+//    }
 
     public static void printCannotReadDatabaseFile() {
-        println("\nerror: cannot read database file.\n");
+        println("\nConsoleResponse.error cannot read database file.\n");
     }
 
     public static void printCannotWriteToDatabaseFile() {
-        println("\nerror: cannot write to database file.\n");
+        println("\nConsoleResponse.error cannot write to database file.\n");
     }
 
     public static void printBookList(Collection<Book> bookList) {
