@@ -1,9 +1,9 @@
-package local.shendy.services;
+package task.shendy.services;
 
 // MARK: Import Statements
 
-import local.shendy.Utils;
-import local.shendy.models.Book;
+import task.shendy.Utils;
+import task.shendy.models.Book;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;

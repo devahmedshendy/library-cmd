@@ -1,10 +1,10 @@
-package local.shendy.menus;
+package task.shendy.menus;
 
 // MARK: Import Statements
 
-import local.shendy.models.Book;
-import local.shendy.Utils;
-import local.shendy.services.LocalDiskService;
+import task.shendy.models.Book;
+import task.shendy.Utils;
+import task.shendy.services.LocalDiskService;
 
 import java.util.List;
 import java.util.Scanner;

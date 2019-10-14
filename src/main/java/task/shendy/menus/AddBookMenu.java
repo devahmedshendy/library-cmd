@@ -1,10 +1,10 @@
-package local.shendy.menus;
+package task.shendy.menus;
 
 // MARK: Import Statements
 
-import local.shendy.Utils;
-import local.shendy.services.LocalDiskService;
-import local.shendy.validators.BookValidator;
+import task.shendy.Utils;
+import task.shendy.services.LocalDiskService;
+import task.shendy.validators.BookValidator;
 
 import java.util.Scanner;
 

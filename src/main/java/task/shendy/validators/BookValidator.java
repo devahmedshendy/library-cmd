@@ -1,6 +1,6 @@
-package local.shendy.validators;
+package task.shendy.validators;
 
-import local.shendy.services.RecordBufferManager;
+import task.shendy.services.RecordBufferManager;
 
 public class BookValidator {
 

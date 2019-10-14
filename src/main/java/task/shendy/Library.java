@@ -1,9 +1,9 @@
-package local.shendy;
+package task.shendy;
 
 // MARK: Import Statements
 
-import local.shendy.menus.MenuNavigator;
-import local.shendy.services.LocalDiskService;
+import task.shendy.menus.MenuNavigator;
+import task.shendy.services.LocalDiskService;
 
 // MARK: Class Definition
 

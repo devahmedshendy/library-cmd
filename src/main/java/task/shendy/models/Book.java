@@ -1,4 +1,4 @@
-package local.shendy.models;
+package task.shendy.models;
 
 public class Book {
 

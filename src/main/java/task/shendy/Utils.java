@@ -1,9 +1,9 @@
-package local.shendy;
+package task.shendy;
 
 // MARK: Import Statements
 
-import local.shendy.models.Book;
-import local.shendy.services.RecordBufferManager;
+import task.shendy.models.Book;
+import task.shendy.services.RecordBufferManager;
 
 import java.util.Collection;
 

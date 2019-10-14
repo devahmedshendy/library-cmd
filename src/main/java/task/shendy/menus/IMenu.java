@@ -1,4 +1,4 @@
-package local.shendy.menus;
+package task.shendy.menus;
 
 public interface IMenu {
     void runMenu();

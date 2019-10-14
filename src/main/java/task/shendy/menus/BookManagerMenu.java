@@ -1,8 +1,8 @@
-package local.shendy.menus;
+package task.shendy.menus;
 
 // MARK: Import Statements
 
-import local.shendy.Utils;
+import task.shendy.Utils;
 
 import java.util.List;
 import java.util.Scanner;
