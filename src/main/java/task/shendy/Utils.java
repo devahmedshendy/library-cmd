@@ -2,8 +2,6 @@ package task.shendy;
 
 // MARK: Import Statements
 
-import task.shendy.models.Book;
-
 import java.util.Collection;
 
 // MARK: Class Definition

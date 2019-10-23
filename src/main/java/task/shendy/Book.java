@@ -1,4 +1,4 @@
-package task.shendy.models;
+package task.shendy;
 
 public class Book {
 
@@ -11,7 +11,12 @@ public class Book {
 
     // MARK: Constructors
 
+    public Book() {
+
+    }
+
     public Book(String title, String author, String description) {
+        this();
         this.title = title;
         this.author = author;
         this.description = description;

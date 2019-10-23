@@ -1,8 +1,10 @@
-package task.shendy.controllers;
+package task.shendy;
 
 public class LibraryController {
+    private Book book;
+    private LibraryView view;
 
-    public LibraryController() {
+    public LibraryController(Book model, LibraryView view) {
         // TODO
     }
 

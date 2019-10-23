@@ -1,12 +1,12 @@
 package task.shendy;
 
-import task.shendy.controllers.LibraryController;
-import task.shendy.views.LibraryView;
-
 public class LibraryCmd {
     public static void main(String[] args) {
+        Book model = new Book();
+
         LibraryView view = new LibraryView();
-        LibraryController libraryController = new LibraryController();
+
+        LibraryController libraryController = new LibraryController(model, view);
 
         view.run();
     }

@@ -1,7 +1,4 @@
-package task.shendy.views;
-
-import task.shendy.Utils;
-import task.shendy.models.Book;
+package task.shendy;
 
 import java.util.*;
 
