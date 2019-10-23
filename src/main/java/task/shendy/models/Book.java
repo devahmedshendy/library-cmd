@@ -11,10 +11,6 @@ public class Book {
 
     // MARK: Constructors
 
-//    public Book() {
-//        this(0, "", "", "");
-//    }
-
     public Book(String title, String author, String description) {
         this.title = title;
         this.author = author;
@@ -26,7 +22,7 @@ public class Book {
         this.id = id;
     }
 
-    // MARK: Getters
+    // MARK: Getters & Setters
 
     public void setId(Integer id) {
         this.id = id;

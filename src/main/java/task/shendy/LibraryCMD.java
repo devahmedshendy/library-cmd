@@ -1,12 +1,13 @@
 package task.shendy;
 
-import task.shendy.console.ConsoleBrowser;
+import task.shendy.controllers.LibraryController;
+import task.shendy.views.LibraryView;
 
-public class LibraryCMD {
-    private static ConsoleBrowser consoleBrowser = new ConsoleBrowser();
-
+public class LibraryCmd {
     public static void main(String[] args) {
-//        enableShutdownHook();
-        consoleBrowser.start();
+        LibraryView view = new LibraryView();
+        LibraryController libraryController = new LibraryController();
+
+        view.run();
     }
 }
